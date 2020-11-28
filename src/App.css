@@ -1,6 +1,16 @@
 .App {
   text-align: center;
 }
+.temp {
+  height: 50%;
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
 
 .App-logo {
   height: 40vmin;
