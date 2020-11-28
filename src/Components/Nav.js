@@ -12,7 +12,8 @@ function NavBar(){
                 height="50"
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
-            />
+            />{' '}
+            Koda
             </Navbar.Brand>
         </Navbar>
     );
