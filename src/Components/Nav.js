@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavBar(){
     return(
-        <Navbar bg="info" variant="dark">
+        <Navbar inverse bg="info" fixed="top" variant="dark">
             <Navbar.Brand>Koda</Navbar.Brand>
             <Nav className="mr-auto">
                 <Nav.Link href="">Editor</Nav.Link>

@@ -112,7 +112,7 @@ class Editor extends Component {
     };
       
     return (
-      <div class="content">
+      <div className="content">
         <Stage
           width={600}
           height={600}
