@@ -1,6 +1,9 @@
+import { Nav } from 'react-bootstrap';
 import useImage from 'use-image';
+import React from 'react';
 import './App.css';
-import { Stage, Layer, Rect, Text, Circle, Line, Image } from 'react-konva';
+import Editor from './Components/Editor/Editor';
+import NavBar from './Components/Nav';
 
 function App() {
 
@@ -25,16 +28,9 @@ function App() {
     return <Image width={250} height={525} draggable image={image} />;
   };
   return (
-    <div class="temp">
-      <Stage width={window.innerWidth} height={window.innerHeight}>
-      <Layer>
-        <Text draggable text="Welcome to Koda!" fontSize={25} />
-      </Layer>
-      <Layer>
-          <Screenshot/>
-          <Mockup />
-        </Layer>
-    </Stage>
+    <div>
+      <NavBar/>
+      <Editor/>
     </div>
   );
 }
